@@ -1,3 +1,3 @@
-# Estudo do Segundo Trimestre
-## Tema da Sala: Filme-(Cinema)
-Leonardo de Mattos Ribeiro - N°21
+# Estudo do Segundo Trimestre.
+## Tema da sala: Filmes (cinema).
+Verônica Kitamura - n°32.

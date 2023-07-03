@@ -1,45 +1,49 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-.preta {
-    height: 20vh;
+
+.preta{
     background: black;
+    height: 20vh;
     grid-area: preta;
+    background-color: black;
 }
-.amarelo {
-    height: 70vh;
+
+.amarelo{
     background: yellow;
+    height: 70vh;
     grid-area: amarelo;
     
 }
-.roxa {
+
+.cinza{
+    background:grey;
     height: 35vh;
-    background: purple;
-    grid-area: roxa;
-}
-.cinza {
-    height: 35vh;
-    background: gray;
     grid-area: cinza;
 }
-.rosa {
-    height: 10vh;
-    background: rgb(250, 74, 103);
-   grid-area: rosa;
+
+.roxo{
+    background: purple;
+    height: 35vh;
+    grid-area: roxo;
 }
-.laranja {
+
+.laranja{
+    background: orange;
     height: 70vh;
-    background: rgb(255, 81, 0);
     grid-area: laranja;
 }
-.site {
+
+.rosa{
+    background: pink;
+    height: 10vh;
+    grid-area: rosa;
+}
+
+.site{
     display: grid;
     width: 100vw;
     grid-template-columns: 10% 20% 70%;
     grid-template-areas: 
     "preta preta preta"
     "amarelo cinza laranja"
-    "amarelo roxa laranja"
+    "amarelo roxo laranja"
     "rosa rosa rosa";
 }
